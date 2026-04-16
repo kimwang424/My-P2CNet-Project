@@ -47,5 +47,10 @@
 > **⚠️ 硬核修复记录 (Hacker Fix)**
 > 由于 PyTorch 环境过新，本项目手动修改了虚拟环境下的 `basicsr/data/degradations.py` 第 8 行，将 `functional_tensor` 修正为 `functional`，成功解决了 RTX 50 系列显卡的兼容性问题。
 
+References：
+P2CNet: A P2CNet algorithm for underwater image enhancement.
+Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data.
+
+
 
 
